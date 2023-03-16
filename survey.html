@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Valorant Gamers</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="nav-bar">
+            <a class="nav" href="home.html" style="text-decoration: none;">home</a>
+            <a class="nav" href="survey.html" style="text-decoration: none;">survey</a>
+            <a class="nav" href="roles.html" style="text-decoration: none;">valorant roles</a>
+            <a class="nav" href="info.html" style="text-decoration: none;">infomation</a>
+        </div>
+        <div class="user-form">
+            <form method="post">
+                <fieldset>
+
+
+                    <div class="user-info">
+                        <label class="fname" for="firstname">First Name:</label>
+                        <input class="fname" type="text" id="firstname" name="first-name">
+                        <label class="lname" for="lastname">Last Name:</label>
+                        <input class="lname" type="text" id="lastname" name="last-name">
+                    </div>
+
+                    <p class="fav-role">What's your favorite Valorant role?</p>
+
+                    <div class="fav-role">
+                        <input class="role" type="checkbox" id="duelist" name="role">
+                        <label class="role" for="duelist">Duelist</label>
+                        <input class="role" type="checkbox" id="sentinel" name="role">
+                        <label class="role" for="sentinel">Sentinel</label>
+                        <input class="role" type="checkbox" id="initiator" name="role">
+                        <label class="role" for="initiator">Initiator</label>
+                        <input class="role" type="checkbox" id="controller" name="role">
+                        <label class="role" for="controller">Controller</label>
+                    </div>
+
+                    <div class="comment-area">
+                        <label for="comments">Why is that your favorite role?</label>
+                        <textarea id="comments"></textarea>
+                    </div>
+
+                    <div class="submit">
+                        <button class="button" type="submit">Submit</button>
+                    </div>
+        </div>
+        </fieldset>
+        </form>
+
+    </body>
+
+</html>
